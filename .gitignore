@@ -1,0 +1,86 @@
+# Python bytecode files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+env/
+
+# Django migration files (optional, but can be useful during development)
+myapp/migrations/
+*/migrations/*.pyc
+
+# Environment variables (if using dotenv for sensitive keys)
+.env
+
+# SQLite database
+*.sqlite3
+
+# Logs
+*.log
+*.pot
+*.pyc
+*.pyo
+*.out
+*.err
+
+# Django specific:
+*.log
+*.pot
+*.pyc
+*.pyo
+*.out
+*.err
+local_settings.py
+db.sqlite3
+
+# Media/uploads
+media/
+staticfiles/
+
+# Node.js dependencies (if using)
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# macOS specific
+.DS_Store
+
+# Windows specific
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Coverage reports
+htmlcov/
+.coverage
+.tox/
+
+# Pipenv (if used)
+Pipfile.lock
+
+# Python egg files
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+
+# Compiled files
+*.so
+*.dll
+*.dylib
+*.pyd
